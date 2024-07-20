@@ -37,7 +37,7 @@ class RecorderHelper(
             return
         }
 
-        val outputFile = File(context.filesDir, "video-file.mp4")
+        val outputFile = File(context.filesDir, "video-file-${System.currentTimeMillis()}.mp4")
         recording = controller.startRecording(
             FileOutputOptions.Builder(outputFile).build(),
             AudioConfig.create(true),
