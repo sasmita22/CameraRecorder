@@ -1,13 +1,9 @@
-package com.hiroshisasmita.camerarecorder
+package com.hiroshisasmita.camerarecorder.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.widget.Toast
-import androidx.camera.video.FileDescriptorOutputOptions
 import androidx.camera.video.FileOutputOptions
-import androidx.camera.video.MediaStoreOutputOptions
 import androidx.camera.video.Recording
-import androidx.camera.video.VideoCapture
 import androidx.camera.video.VideoRecordEvent
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.video.AudioConfig

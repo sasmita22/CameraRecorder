@@ -1,4 +1,4 @@
-package com.hiroshisasmita.camerarecorder
+package com.hiroshisasmita.camerarecorder.presentation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -59,6 +59,7 @@ fun LibraryBottomSheet(files: List<File>, onDismissRequest: () -> Unit, onClickU
                 ) {
                     VideoComponent(file = it) {
                         onClickUploadFile(it)
+                        onDismissRequest()
                     }
                 }
             }

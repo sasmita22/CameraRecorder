@@ -1,4 +1,4 @@
-package com.hiroshisasmita.camerarecorder
+package com.hiroshisasmita.camerarecorder.presentation
 
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView
